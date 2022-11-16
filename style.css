@@ -1,0 +1,100 @@
+nav {
+  background-color: rgb(228, 228, 228);
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  padding: 20px;
+}
+nav ul li {
+  margin-right: 20px;
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.btn-contact {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  padding: 7px;
+  font-size: medium;
+}
+.btn-submit {
+  margin-top: 15px;
+  background-color: rgb(159, 159, 159);
+  color: black;
+  border: 1% black;
+  border-radius: 8px;
+  padding: 5px;
+  font-size: small;
+}
+form input {
+  width: 100%;
+  border-color: rgb(255, 181, 181);
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: rgb(255, 244, 244);
+  padding: 5px;
+  margin-top: 5px;
+}
+form select {
+  width: 100%;
+  border-color: rgb(255, 181, 181);
+  box-sizing: border-box;
+  background-color: rgb(255, 244, 244);
+  border-radius: 8px;
+  padding: 5px;
+  margin-top: 5px;
+}
+form textarea {
+  width: 100%;
+  border-color: rgb(255, 181, 181);
+  background-color: rgb(255, 244, 244);
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 5px;
+  margin-top: 5px;
+  height: 150px;
+  resize: none;
+}
+.container {
+  width: 1120px;
+  height: 500px;
+  margin: 20px;
+  padding: 20px 50px;
+  box-shadow: 1px 2px 8px rgb(179, 167, 167);
+  border-radius: 10px;
+  background-color: rgb(255, 244, 244);
+}
+.contact-btn {
+  background-color: black;
+  border-radius: 25px;
+  color: white;
+  font-size: small;
+  margin-bottom: 10px;
+}
+.cv-btn {
+  color: black;
+  text-decoration: none;
+  font-size-adjust: inherit;
+  height: 10px;
+  padding-left: 10 px;
+}
+.sm-btn {
+  text-decoration: none;
+  width: 30px;
+  margin-right: 5px;
+  margin-top: 20px;
+}
+.card-dec {
+  width: 200px;
+  box-shadow: 1px 1px 5px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
